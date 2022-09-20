@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dashboard Administrador</title>
+    <link rel="shortcut icon" href="img/Logo sin letras.png">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+
+    <link rel="stylesheet" href="../css/all.min.css">
+
+    <!-- Bootstrap CSS-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS Propio -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <a href="principalAdmin.html" target="principal"></a>
+
+    <div class="container-xxl position-relative bg-white d-flex p-0">
+       
+
+        <!-- Sidebar Inicio -->
+        <div class="sidebar pe-4 pb-3">
+            <nav class="navbar navbar" style="background: #232752;">
+                <a href="index.html" class="navbar-brand mx-4 mb-3">
+                    <h3 class="texto"><img src="img/Logo sin letras.png" alt="" style="width: 60px; height: 60px;"> SIC</h3>
+                </a>
+                <div class="d-flex align-items-center ms-4 mb-4" >
+                    <div class="position-relative">
+                        <img class="rounded-circle" src="img/Usuario 2.jpg" alt="" style="width: 40px; height: 40px;">
+                        <div class="bg-success rounded-circle border border-2 border-white position-absolute end-0 bottom-0 p-1"></div>
+                    </div>
+                    <div class="ms-3" style="color: #fff;">
+                        <h6 class="mb-0" style="color: #f35b04;">GAES #4</h6>
+                        <span>Administrador</span>
+                    </div>
+                </div>
+                <div class="navbar-nav w-100">
+                    <a href="indexAdministrador.html" class="nav-item nav-link active" style="background-color: #232752; color: #fff;"><i class="fas fa-home" style="background-color: #232752;"></i> Inicio</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="background-color: #232752; color: #fff;"><i class="fas fa-dolly-flatbed" style="background-color: #232752;"></i> Inventario</a>
+                        <div class="dropdown-menu bg-transparent border-0">
+                            <a href="../modulo_inventario/database/database/listaproduct.html" target="principal" class="dropdown-item" style=" background-color: #232752; color: white;">Productos</a>
+                        </div>
+                    </div>
+
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="background-color: #232752; color: #fff;"><i class="fas fa-truck-loading" style="background-color: #232752;"></i> Proveedores</a>
+                        <div class="dropdown-menu bg-transparent border-0">
+                            <a href="../modulo_proveedores/indexRegistarProveedores.html" target="principal" class="dropdown-item" style="background-color: #232752; color: white;">Agregar Proveedor</a>
+                        </div>
+                    </div>
+
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="background-color: #232752; color: #fff;"><i class="fa fa-laptop me-2" style="background-color: #232752;"></i>Catalogo</a>
+                        <div class="dropdown-menu bg-transparent border-0">
+                            <li><a href="../modulo_catalogo/indexRegistro.html" target="principal" class="dropdown-item" style="background-color: #232752; color: white;" >Añadir producto al Cátalogo</a></li>
+                            <a href="../modulo_catalogo/indexClientes.html" target="principal" class="dropdown-item" style="background-color: #232752; color: white;">Lista Clientes</a>
+                            <a href="../modulo_catalogo/indexPedidos.html" target="principal" class="dropdown-item" style="background-color: #232752; color: white;">Pedidos</a>
+                            <a href="../modulo_catalogo/indexProductos.html" target="principal" class="dropdown-item" style="background-color: #232752; color: white;">Productos Vendidos</a>
+                        </div>
+                    </div>
+
+
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="background-color: #232752; color: #fff;" ><i class="far fa-file-alt me-2" style="background-color: #232752;"></i>PQRS</a>
+                        <div class="dropdown-menu bg-transparent border-0">
+                            <a href="../modulo_pqrs/datatables_custom/index_tabla_PQRS.html" target="principal" class="dropdown-item" style="background-color: #232752; color: white;">Contestar PQRS</a>
+                            <a href="../modulo_pqrs/datatables_custom/index_tablaVerRespu.html" target="principal" class="dropdown-item" style="background-color: #232752; color: white;">Respuestas PQRS</a>
+                        </div>
+                    </div>
+                    <a href="Reportes/indexVentas.html" target="principal" class="nav-item nav-link" style="background-color: #232752; color: #fff;"><i class="fa fa-chart-bar me-2" style="background-color: #232752;"></i>Ventas</a>
+                    <a href="Reportes/indexCompras.html" target="principal" class="nav-item nav-link" style="background-color: #232752; color: #fff;"><i class="fa fa-chart-bar me-2" style="background-color: #232752;"></i>Compras</a>
+                </div>
+            </nav>
+        </div>
+        <!-- Sidebar Fin -->
+
+
+
+        <!-- Contenido -->
+        <div class="content">
+       
+            <nav class="navbar navbar-expand navbar sticky-top px-4 py-0" style="background: #232752; ">
+                <a href="index.html" class="navbar-brand d-flex d-lg-none me-4">
+                    <h2 class="text-primary mb-0"><img src="img/Logo sin letras.png" alt="" style="width: 60px; height: 60px;"></h2>
+                </a>
+                <a href="#" class="sidebar-toggler flex-shrink-0" style="background-color: #232752;">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <form class="d-none d-md-flex ms-4" >
+                    <input class="form-control border-0" type="search" placeholder="Buscar">
+                </form>
+                <div class="navbar-nav align-items-center ms-auto">
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                            <i class="fa fa-envelope me-lg-2" style="background-color: #232752;"></i>
+                            <span class="d-none d-lg-inline-flex" style="color: #fff;">Mensajes</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-end border-0 rounded-0 rounded-bottom m-0" style="background-color: #232752;">
+                            <hr class="dropdown-divider">
+                            <a href="#" class="dropdown-item text-center" style="background-color: #232752; color: white;">No hay mensajes</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                            <i class="fa fa-bell me-lg-2" style="background-color: #232752;"></i>
+                            <span class="d-none d-lg-inline-flex" style="color: #fff;">Notificaciones</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-end border-0 rounded-0 rounded-bottom m-0" style="background-color: #232752;">
+                            <hr class="dropdown-divider">
+                            <a href="#" class="dropdown-item text-center" style="background-color: #232752; color: white;">No hay notificaciones</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                            <img class="rounded-circle me-lg-2" src="img/Usuario 2.jpg" alt="" style="width: 40px; height: 40px;">
+                            <span class="d-none d-lg-inline-flex" style="color: #fff;">GAES #4</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-end border-0 rounded-0 rounded-bottom m-0" style="background-color: #232752;">
+                            <a href="indexEmpleado.html" class="dropdown-item" style="background-color: #232752; color: white;">Cambiar Rol</a>
+                            <a href="../index.html" class="dropdown-item" style="background-color: #232752; color: white;">Cerrar Sesion</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+
+
+            <!-- Navbar End -->
+
+
+            <!-- Pantalla principal -->
+
+            <iframe name="principal" src="principalAdmin.html" frameborder="0"></iframe>
+
+            <!-- Footer -->
+
+<footer >
+        <p>Todos los derechos reservados © 2021 |
+        <b>SIC</b></p>
+    </footer>
+
+    <!-- Espacio de Trabajo -->
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

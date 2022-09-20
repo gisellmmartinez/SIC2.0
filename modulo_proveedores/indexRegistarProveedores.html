@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/styleRegistrarProveedores.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	
+	<title>Document</title>
+</head>
+<body>
+      <div class="container  rounded-3 border border-4 ">
+        <h1 class="text-center mb-3 fw-bold">Nuevo proveedor</h1>
+        <div class="text-center">
+              <!-- <label for="">Imagen</label> -->
+              <img class="rounded-circle img-fluid mb-3" src="img/UserF.jpg"  alt="" width="300" height="300">
+            </div>
+        <div class="row">
+          <!-- Formulario -->
+          
+            <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 mb-3">
+              <label for="date" class="text-center fw-bold">Fecha</label>
+              <input class="form-control" type="date" name="Fecha" id="Fecha" placeholder="Ingresar Fecha">
+            </div>
+            <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 mb-3">
+              <label for="time" class="text-center fw-bold">Hora</label>
+              <input class="form-control" type="time" name="Hora" id="Hora" placeholder="Ingresar Hora">
+            </div>
+            <div class=" col-xs-12 col-sm-12 col-md-6 col-lg-6 mb-3">
+              <input class="form-control" type="text" name="Nombres" id="Nombres" placeholder="Ingresar Nombres">
+            </div> 
+            <div class=" col-xs-12 col-sm-12 col-md-6 col-lg-6 mb-3">
+              <input class="form-control" type="text" name="Apelldos" id="Apellidos" placeholder="Ingresar Apellidos">
+            </div>
+            <div class=" col-xs-12 col-sm-12 col-md-6 col-lg-6 mb-3">
+              <input class="form-control" type="email" name="Dirección" id="Dirección" placeholder="Ingresar Dirección">
+            </div>
+            <div class=" col-xs-12 col-sm-12 col-md-6 col-lg-6 mb-3">
+              <input class="form-control" type="tel" name="NumContacto" id="NumContacto" placeholder="Ingresar Teléfono o Celular">
+            </div>
+            <div class=" col-xs-12 col-sm-12 col-md-6 col-lg-6 mb-3"><input class="form-control" type="email" name="Correo Electrónico" id="Correo Electrónico" placeholder="Ingresar Correo Electrónico">
+            </div>
+            <div class=" col-xs-12 col-sm-12 col-md-6 col-lg-6 mb-3">
+              <input class="form-control" type="url" name="Página Web" id="Página Web" placeholder="Ingresar Página Web">
+            </div>
+            <div class=" col-xs-12 col-sm-12 col-md-6 col-lg-6 mb-3"> <input class="form-control" type="number" name="Código" id="Código" placeholder="Ingresar Código"></div>
+            <div class=" col-xs-12 col-sm-12 col-md-6 col-lg-6 mb-4">
+              <select class="form-control" type="" name="NumContacto" id="NumContacto">
+          <option value=".....">Servicios/Productos</option>
+            <option value="1">Cuadernos</option>
+            <option value="2">Lapices</option>
+            <option value="3">Cartulinas</option>
+            <option value="4">Reglas</option>
+            <option value="5">Folders</option>
+        </select>
+            </div>
+            <div class="col text-center">
+              <button type="button" class="btn btn-success mb-4">Agregar</button>
+            </div>
+            <div class="col text-center">
+              <button type="button" class="btn btn-danger mb-4">Restablecer</button>
+            </div>
+          
+      </div>
+    	
+  </div>
+
+
+<script src="js/bootstrap.bundle.js"></script>
+
+</body>
+</html>

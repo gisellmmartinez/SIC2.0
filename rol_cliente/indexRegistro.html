@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulario de Registro</title>
+	<link rel="stylesheet" href="styleRegistro.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/all.min.css">
+	<link rel="shortcut icon" href="../img/Logo sin letras.png">
+</head>
+<body style="background-image: url(../img/fondo1.jpg); background-position: center center; background-attachment: fixed; background-size: cover;">
+
+	 <div class="container">
+ <!---heading---->
+     <header class="heading"> Formulario de Registro</header><hr></hr>
+	<!---Form starting----> 
+	<div class="row ">
+	 <!--- For Name---->
+         <div class="col-sm-12">
+             <div class="row">
+			     <div class="col-xs-4">
+          	         <label class="firstname">Nombre :</label> </div>
+		         <div class="col-xs-8">
+		             <input type="text" name="fname" id="fname" placeholder="Ingrese su nombre" class="form-control ">
+             </div>
+		      </div>
+		 </div>
+		 
+		 
+         <div class="col-sm-12">
+		     <div class="row">
+			     <div class="col-xs-4">
+                     <label class="lastname">Apellido :</label></div>
+				<div class ="col-xs-8">	 
+		             <input type="text" name="lname" id="lname" placeholder="Ingrese su apellido" class="form-control last">
+                </div>
+		     </div>
+		 </div>
+     <!-----For email---->
+		 <div class="col-sm-12">
+		     <div class="row">
+			     <div class="col-xs-4">
+		             <label class="mail" >Correo :</label></div>
+			     <div class="col-xs-8"	>	 
+			          <input type="email" name="email"  id="email"placeholder="Ingrese el correo electronico" class="form-control" >
+		         </div>
+		     </div>
+		 </div>
+	 <!-----For Password and confirm password---->
+          <div class="col-sm-12">
+		         <div class="row">
+				     <div class="col-xs-4">
+		 	              <label class="pass">Contraseña :</label></div>
+				  <div class="col-xs-8">
+			             <input type="password" name="password" id="password" placeholder="Ingrese la contraseña que desee" class="form-control">
+				 </div>
+          </div>
+		  </div>
+		  
+     <!-----------For Phone number-------->
+         <div class="col-sm-12">
+		     <div class ="row">
+                 <div class="col-xs-4 ">
+			       <label class="gender">Genero :</label>
+				 </div>
+			 
+			     <div class="col-xs-4 male">	 
+				     <input type="radio" name="gender"  id="gender" value="boy"> Hombre</input>
+				 </div>
+				 
+				 <div class="col-xs-4 female">
+				     <input type="radio"  name="gender" id="gender" value="girl" > Mujer</input>
+			     </div>
+			
+		  	 </div>
+		     <div class="col-sm-12">
+		         <input type="button" id="button" value="REGISTRAR" class="btn btn-success" onclick="enviar()">
+		   </div>
+		 </div>
+	 </div>	 
+		 		 
+		 
+</div>
+
+
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jQuery.js"></script>
+    <script src="js/sweetalert.min.js"></script> 
+    <script src="js/codigo.js"></script>
+
+	
+</body>
+</html>

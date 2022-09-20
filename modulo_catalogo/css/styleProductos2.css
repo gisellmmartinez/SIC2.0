@@ -1,0 +1,11 @@
+
+
+table th{
+	background: #232752 !important;
+	color: white;
+}
+
+table>tbody>tr>th{
+	vertical-align: middle !important;
+}
+

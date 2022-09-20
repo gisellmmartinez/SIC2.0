@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulario PQRS.</title>
+	<link rel="shortcut icon"href="../img/Logo sin letras.png">
+    <link rel="stylesheet" type="text/css" href="css/styleFormPQRS.css" >
+   <!--  <link rel="stylesheet" href="bootstrap-3.4.1-dist/css/bootstrap.min.css"> -->
+    <script src = " https://unpkg.com/sweetalert/dist/sweetalert.min.js " ></script > 
+
+</head>
+<body>
+	
+	
+	<!--Formulario -->
+
+ <main>
+<div class="formulario">
+
+  
+    <form action="">
+
+        <div class="titulo">
+            <h4>♥ Completa todo el formulario ♥</h4>
+        </div>
+
+        <label for=""></span>Tipo de solicitud:</label>
+        
+
+        <select class="fecha" name="tipoSoli" id="tipoSoli">
+            <option value=""><div></div>Seleccione</option>
+            <option value="1"><div></div>Petición</option>
+            <option value="2"><div></div>Queja</option>
+            <option value="3"><div></div>Reclamo</option>
+            <option value="2"><div></div>Solicitud</option>
+        </select>
+         
+        <label for=""></span>Fecha:</label>
+        
+
+        <input class="fecha" type="date" max="2022-01-28" min="1930-12-3">
+        
+
+        <label class="juntos" for="">Tipo de identificación:</label>
+        
+
+        <select class="fecha" name="tipoIde" id="tipoIde">
+            <option value="">Seleccione</option>
+            <option value="1">Cedula de Ciudadania</option>
+            <option value="2">Tarjeta de Identidad</option>
+            <option value="3">Cedula de Extrajería</option>
+        </select>
+        
+        
+
+        <label for=""></span>Número de identificación:</label>
+        <input class="fecha" type="number" required="">
+
+        
+
+        <label for="">Nombres y apellidos:</label>
+        <input class="fecha" type="text" name="">
+        
+        
+
+        <label  for=""><span class="correo"></span>Correo electronico:</label>
+        <input class="fecha" type="email">
+
+        
+
+        <label for="">Dirección:</label>
+        <input class="fecha" type="email">
+        
+        
+
+        <label  for=""><span class="cel"></span>Celular:</label>
+        <input class="fecha" type="number" required="" placeholder="Ingrese su celular">
+
+
+        
+
+
+        <label  for="">Ciudad:</label>
+        <select class="fecha" name="tipoCiud" id="tipoCiud">
+            <option value="">Seleccione</option>
+            <option value="">Bogotá D.C</option>
+        </select>
+        
+        
+
+       <label for=""><span></span>Descripción de la novedad:</label>
+        <textarea class="fecha" name="texto" rows="4" cols="70"></textarea>
+
+
+        <div class="texto">
+        <label for="">Por favor adjunte un archivo consolidado que contenga los documentos escritos, fotografías, videos, audios y/o imágenes que den soporte a su solicitud. Máximo 4 archivos, tamaño máximo permitido por archivo 2MB.</label>
+        <input type="file">
+
+        <br><br>
+
+        <input type="radio" name="Diquesi" required=""> 
+        <label for="" required="">Acepto los Términos de Uso y la Política de Tratamiento de Datos Personales</label>
+
+
+        <!-- enviar -->
+        <br><br>
+        <!-- <div class="boton"> -->
+            <div class="row">
+            <div class="col-lg-3">
+            <button type="submit" class="boton" onclick="mostrar() "> Enviar</button>
+                            
+       <!--  <input type="submit">  <input type="reset"> -->
+    </form>
+
+
+
+
+
+
+    <script>
+        function mostrar(){
+            swal({
+  title: "El formulario fue enviado con exito (:",
+  text: "Pronto recibirás respuesta ☻",
+  icon: "success",
+  button: "Entendido",
+});
+        }
+    </script>
+
+
+
+    </div>
+
+</div>
+      </main>
+
+<!-- <script src="bootstrap-3.4.1-dist/js/iQueri.js"></script>
+<script src="bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+ -->
+</body>
+</html>

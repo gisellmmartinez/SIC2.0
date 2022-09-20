@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="sweetAlert2/sweetalert2.min.css">
+	<title>Formulario de Pago</title>
+</head>
+<body>
+	
+
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class=" col-lg-6 col-md-8">
+            <div class="card p-3">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <h2 class="heading text-center">Pago en Linea</h2>
+                    </div>
+                </div>
+                <form onsubmit="event.preventDefault()" class="form-card">
+                    <div class="row justify-content-center mb-4 radio-group">
+                        <div class="col-sm-3 col-5">
+                            <div class='radio mx-auto'> <img class="fit-image" src="img/daviplata_1_0.jpg" width="105px" height="55px"> </div>
+                        </div>
+                        <div class="col-sm-3 col-5">
+                            <div class='radio mx-auto'> <img class="fit-image" src="img/Visa-MasterCard-1024x393-1024x393.png" width="105px" height="55px"> </div>
+                        </div>
+                        <div class="col-sm-3 col-5">
+                            <div class='radio mx-auto'> <img class="fit-image" src="img/Servientrega-Efecty-fusagasuga (1).jpg" width="105px" height="55px"> </div>
+                        </div> <br>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                            <div class="input-group"> <input type="text" name="Ingrese su Nombre" id="cr_no" placeholder="Ingrese su nombre"> <label>Nombre</label> </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                              <div class="input-group"> <input type="text" name="Name" id="cr_no" placeholder="Ingrese su direccion"> <label>Direccion de Residencia</label> </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="input-group"> <input type="text" name="Name" id="exp" placeholder=""> <label>Numero de Orden</label> </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="input-group"> <input type="text" name="Name" placeholder="$$$$"> <label>Monto a Pagar</label> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-12"> 
+                        <input onclick="showAlert2();" type="submit" value="Pagar" class="btn btn-pay placeicon" style="background-color: #232752;">
+                    </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+	<script src="js/bootstrap.bundle.min.js"></script>
+    <script  src="sweetAlert2/sweetalert2.all.min.js" ></script>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

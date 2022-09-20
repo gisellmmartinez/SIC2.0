@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogo Digital</title>
+    <link rel="shortcut icon" href="../img/Logo sin letras.png">
+    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/visualizacion.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="plugins/sweetAlert2/sweetalert2.min.css">
+</head>
+<body>
+
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row">
+
+
+                <div class="four columns">
+                    <a href="../index.html">
+                        <img src="img/home.png"   alt="" id="logo" style="width: 35px; height: px; text-align: left; ">
+                    </a>
+                    
+                </div>
+
+
+                <div class="two columns u-pull-right">
+                    <ul>
+                        <li class="submenu">
+                            <img src="img/cart2.png" alt="" id="img-carrito" style="width: 30px; height: 30px; ">
+                            <div id="carrito">
+                                <table id="lista-carrito" class="u-full-width">
+                                    <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Nombre</th>
+                                            <th>Precio</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+                                <a href="#" id="vaciar-carrito" class="button u-full-width" onclick="showAlert2();">Vaciar Carrito</a>
+                                <a href="formulario_de_Pago/index.html" class="button u-full-width"onclick="pago_form();">Realizar compra</a>
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+               
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <div id="lista-producto" class="container">
+        <h1 id="encabezado" class="encabezado">Catálogo de Productos</h1>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/Marcadores.jpg" class="u-full-width">
+                    <div class="info-card">
+                        <h4>Marcadores</h4>
+                        <p>Marca Sharpie</p>
+                        <label for="Input">Unidades</label>
+                        <input class="u-full-width"     type="number" style="color: white; background-color: #232752; height: 30px; width: 80px;">
+                        <p class="precio">$200 <span class="u-pull-right">$15</span></p>
+                        <a href="#" 
+                        class="u-full-width button-primary button input agregar-carrito                        
+                        " onclick="showAlert();">Agregar Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/COLORES-ARTE-NORMA-558860-3149664_a.jpg" class="u-full-width">
+                    <div class="info-card">
+                        <h4>Colores</h4>
+                        <p>Marca Norma</p>
+                        <label for="InputEmail">Unidades</label>
+                        <input class="u-full-width"     type="number" style="color: white; background-color: #232752; height: 30px; width: 80px;">
+                        <p class="precio">$200 <span class="u-pull-right">$20</span></p>
+                        <a href="#" 
+                        class="u-full-width button-primary button input agregar-carrito                        
+                        " onclick="showAlert();">Agregar Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/Reglas.jpg" class="u-full-width">
+                    <div class="info-card">
+                        <h4>Reglas</h4>
+                        <p>Marca Offi-Esco</p>
+                        <label for="InputEmail">Unidades</label>
+                        <input class="u-full-width"     type="number" style="color: white; background-color: #232752; height: 30px; width: 80px;">
+                        <p class="precio">$200 <span class="u-pull-right">$15</span></p>
+                        <a href="#" 
+                        class="u-full-width button-primary button input agregar-carrito                        
+                        " onclick="showAlert();">Agregar Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div><!--.row-->
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/Lapices.png" class="u-full-width">
+                    <div class="info-card">
+                        <h4>Lapices</h4>
+                        <p>Marca Faber-Castell</p>
+                        <label for="InputEmail">Unidades</label>
+                        <input class="u-full-width"     type="number" style="color: white; background-color: #232752; height: 30px; width: 80px;">
+                        <p class="precio">$200 <span class="u-pull-right">$15</span></p>
+                        <a href="#" 
+                        class="u-full-width button-primary button input agregar-carrito                        
+                        " onclick="showAlert();">Agregar Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/Colbon.jpg" class="u-full-width">
+                    <div class="info-card">
+                        <h4>Pegantes</h4>
+                        <p>Marca Colbón</p>
+                        <label for="InputEmail">Unidades</label>
+                        <input class="u-full-width"     type="number" style="color: white; background-color: #232752; height: 30px; width: 80px;">
+                        <p class="precio">$200 <span class="u-pull-right">$15</span></p>
+                        <a href="#" 
+                        class="u-full-width button-primary button input agregar-carrito                        
+                        " onclick="showAlert();">Agregar Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/Borradores.jpg" class="u-full-width">
+                    <div class="info-card">
+                        <h4>Borradores</h4>
+                        <p>Marca Faber-Castell</p>
+                        <label for="InputEmail">Unidades</label>
+                        <input class="u-full-width"     type="number" style="color: white; background-color: #232752; height: 30px; width: 80px;">
+                        <p class="precio">$200 <span class="u-pull-right">$15</span></p>
+                        <a href="#" 
+                        class="u-full-width button-primary button input agregar-carrito                        
+                        " onclick="showAlert();">Agregar Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div><!--.row-->
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/Carpetas.jpg" class="u-full-width">
+                    <div class="info-card">
+                        <h4>Carpetas</h4>
+                        <p>Marca Offi-Esco</p>
+                        <label for="InputEmail">Unidades</label>
+                        <input class="u-full-width"     type="number" style="color: white; background-color: #232752; height: 30px; width: 80px;">
+                        <p class="precio">$200 <span class="u-pull-right">$15</span></p>
+                        <a href="#" 
+                        class="u-full-width button-primary button input agregar-carrito                        
+                        " onclick="showAlert();">Agregar Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/Cuadernos argollados.jpg" class="u-full-width">
+                    <div class="info-card">
+                        <h4>Cuadernos Argolla</h4>
+                        <p>Marca Norma</p>
+                        <label for="InputEmail">Unidades</label>
+                        <input class="u-full-width"     type="number" style="color: white; background-color: #232752; height: 30px; width: 80px;">
+                        <p class="precio">$200 <span class="u-pull-right">$15</span></p>
+                        <a href="#" 
+                        class="u-full-width button-primary button input agregar-carrito                        
+                        " onclick="showAlert();">Agregar Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/Tijeras.jpg" class="u-full-width">
+                    <div class="info-card">
+                        <h4>Tijeras</h4>
+                        <p>Marca Faber-Castell</p>
+                        <label for="InputEmail">Unidades</label>
+                        <input class="u-full-width"     type="number" style="color: white; background-color: #232752; height: 30px; width: 80px;">
+                        <p class="precio">$200 <span class="u-pull-right">$15</span></p>
+                        <a href="#" 
+                        class="u-full-width button-primary button input agregar-carrito                        
+                        " onclick="showAlert();">Agregar Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div><!--.row-->
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/Grapadoras.png" class="u-full-width">
+                    <div class="info-card">
+                        <h4>Grapadoras</h4>
+                        <p>Marca Gipao</p>
+                        <label for="InputEmail">Unidades</label>
+                        <input class="u-full-width"     type="number" style="color: white; background-color: #232752; height: 30px; width: 80px;">
+                        <p class="precio">$200 <span class="u-pull-right">$15</span></p>
+                        <a href="#" 
+                        class="u-full-width button-primary button input agregar-carrito                        
+                        " onclick="showAlert();">Agregar Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/Folders.jpg" class="u-full-width">
+                    <div class="info-card">
+                        <h4>Folders</h4>
+                        <p>Marca Norma</p>
+                        <label for="InputEmail">Unidades</label>
+                        <input class="u-full-width"     type="number" style="color: white; background-color: #232752; height: 30px; width: 80px;">
+                        <p class="precio">$200 <span class="u-pull-right">$15</span></p>
+                        <a href="#" 
+                        class="u-full-width button-primary button input agregar-carrito                        
+                        " onclick="showAlert();">Agregar Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/Cuadernos.jpg" class="u-full-width">
+                    <div class="info-card">
+                        <h4>Cuadernos</h4>
+                        <p>Marca Norma</p>
+                        <label for="InputEmail">Unidades</label>
+                        <input class="u-full-width"     type="number" style="color: white; background-color: #232752; height: 30px; width: 80px;">
+                        <p class="precio">$200 <span class="u-pull-right">$15</span></p>
+                        <a href="#" 
+                        class="u-full-width button-primary button input agregar-carrito                        
+                        " onclick="showAlert();">Agregar Al Carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div><!--.row-->
+    </div>
+
+
+
+
+
+    <script src="js/app.js"></script>
+    <script  src="plugins/sweetAlert2/sweetalert2.all.min.js" ></script>
+    <script src="js/jQuery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

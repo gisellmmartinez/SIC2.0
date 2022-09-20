@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&family=Source+Sans+Pro:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Source+Sans+Pro&display=swap');
+
+
+
+form{
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  font-family:'Montserrat',sans-serif;
+  /*justify-content: center;*/
+  align-items: flex-start;
+  counter-increment: 50px;
+  position:relative;
+  font-family: 'PT Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.fecha{
+	padding: 10px 10px;
+
+}
+
+
+.formularioRespuestas{width:500px;
+	height:32%;
+	background:#232752;
+	color: white;
+	border-radius:8px;
+	box-shadow:0 0 40px -10px #000;
+	margin:calc(50vh - 100px) auto;
+	padding:20px 30px;
+	max-width:calc(100vw - 40px);
+	box-sizing:border-box;
+	font-family:'Montserrat',sans-serif;
+	position:relative
+
+}
+
+.boton{
+	padding: 10px 10px;
+	text-align: center;
+	border-radius: 6px;
+}
+
+ .juntos{
+	font-family: 'Be Vietnam Pro', sans-serif;
+	/*margin: 10px 10px;
+	padding: 10px;*/
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+.titulo h4{
+	text-align: center;
+	margin:2px 2px;
+	padding-bottom:10px;
+	width:100%;
+	color:#FF931E;
+	border-bottom:3px solid #FF931E;
+
+}
+
+.fecha{
+	text-align: center;
+	width: 97%;
+	background:#white ;
+	padding: 5px;
+	border-radius: 5px;
+	margin-bottom: 1px;
+	border: 1px solid #1d3557;
+	font-size: 18px;
+
+
+}
+
+.juntos{
+
+}
+
+label{
+	text-align: center;
+	margin: 4px;
+
+}

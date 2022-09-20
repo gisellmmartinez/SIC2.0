@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styleregipro.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Registro Producto</title>
+</head>
+
+<body>
+  <div class="container">
+   
+    
+    <form class="inventarios">
+
+
+        <h1>Registro Productos</h1>
+        <div class="form-group">
+        
+        
+        <div class="col-md-9" id="Letras">
+        <label for="">Codigo Producto</label>
+        <input class="espaciosT"type="number">
+        
+        </div>
+        </div>
+        
+         
+        
+        <div class=" col-md-9" id="Letras">
+        <label for="">Nombre Producto</label>
+        <input class="espaciosT" type="text" required="">
+        </div>
+        
+
+        
+        
+
+        <div class="form-group col-md-8" id="Letras">
+        <div class="row">
+        <label for="">Descripción del producto</label>
+        <textarea class="espaciosT12" id=""  ></textarea>
+        </div>
+        </div>  
+        
+
+        <div class="col-md-9" id="Letras">
+        <label for="">Estado Del Producto </label>
+        <input class="espaciosT2" type="text" required="">
+        </div>
+
+        <div class="col-md-9" id="Letras">
+        <label for="">Precio Compra</label>
+        <input class="espaciosT2" type="number">
+        </div>
+        
+        
+        
+
+
+        <!-- Boton enviar -->
+     
+        <button type="submit" class="btn btn-primary" id="Boton" onclick="mostrar()">Guardar Producto</button> 
+        <script>
+                    function mostrar(){
+                        swal("","Producto guardado con exito", "success")
+                    }
+        </script>
+        <button type="submit" class="btn btn-primary" id="Boton1" onclick="enviar()">Editar Producto</button> 
+         <script>
+                    function enviar(){
+                        swal("","Producto editado con exito", "success")
+                    }
+        </script>
+
+     
+    </form>
+       <script src="js/jQuery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/sweetalert.min.js"></script>
+   
+  
+ </div>
+
+</body>
+</html>

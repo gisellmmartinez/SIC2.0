@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Respuestas Admin</title>
+	<link rel="shortcut icon"href="../img/Logo sin letras.png">
+	<link rel="stylesheet" href="css/style_respu_admin.css">
+	<script src = " https://unpkg.com/sweetalert/dist/sweetalert.min.js " ></script > 
+</head>
+<body>
+	<main>
+		<div class="formularioRespuestas">
+
+			<form action="">
+				<div class="titulo">
+					<h4>Responder a tiempo es importante ;)
+					</h4>
+					<BR>
+
+
+					<label class="j" for="">Tipo de solicitud:</label>
+
+					 <select class="fecha" name="tipoSoli" id="tipoSoli">
+                     <option value=""><div></div>Seleccione</option>
+                     <option value="1"><div></div>Petición</option>
+                     <option value="2"><div></div>Queja</option>
+                     <option value="3"><div></div>Reclamo</option>
+                     <option value="2"><div></div>Solicitud</option>
+                    </select>
+                    <BR>
+                   
+
+
+                    <label class="j" for=""></span>Fecha:</label>
+        
+
+                    <input class="fecha" type="date" max="2022-01-28" min="1930-12-3">
+                    <BR>
+
+                    <label class="j" for=""><span class="correo"></span>Correo electronico:</label>
+        
+                    <input class="fecha" type="email">
+                    <BR>
+
+                    <label class="j" for=""><span></span>Escribe tu respuesta</label>
+       
+                    <textarea class="fecha" name="texto" rows="4" cols="100"></textarea>
+                    <BR>
+                    <br><br>
+
+
+
+
+
+                    
+        <!-- <div class="boton"> -->
+            <div class="row">
+            <div class="col-lg-3">
+            <button type="submit" class="boton" onclick="mostrar() "> Enviar</button>
+
+
+
+
+                  
+
+                   <!--  <a href="error_404.html"><input type="submit"></a> -->
+
+
+				</div>
+			</form>
+			  <script>
+        function mostrar(){
+            swal({
+  title: "El formulario fue enviado con exito (:",
+  text: "Pronto recibirás respuesta ☻",
+  icon: "success",
+  button: "Entendido",
+});
+        }
+    </script>
+			
+		</div>
+	</main>
+	
+</body>
+</html>

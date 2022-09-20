@@ -1,0 +1,93 @@
+
+h1{
+	text-align: center;
+}
+
+.inventario{
+	/*width: 80%;
+	height: 620px;*/
+	background: #001845;
+	padding: 30px;
+	margin: auto;
+	border-radius: 4px;	
+	color: #adb5bd;
+	margin-top: 30px;
+}
+.Letras{
+	
+	margin-bottom: 20px;
+    margin-left:15px;
+	width: 30%;
+    float: left;
+    text-align: left;    
+}
+.Letras2{
+	margin-bottom: 15px;
+    margin-left:15px;
+	width: 30%;
+
+}
+.Letras3{
+	margin-bottom: 20px;
+    margin-left:15px;
+	width: 30%;
+    float: left;
+    text-align: left;    
+}
+.espacios{
+    width: 80%;
+	padding: 7px;
+	border-radius: 4px;
+	margin-bottom: 5px;
+	border: 1px solid #1d3557;	
+	font-size: 18px;
+	margin-top: 3px;
+}
+
+.espaciosT{
+	
+	width: 100%;	
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid #1d3557;	
+	font-size: 18px;
+
+}
+
+.espaciosT1{
+	width: 300%;
+    border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid #1d3557;	
+	font-size: 18px;
+	margin-left: 10px;
+}	
+.espaciosT2{
+	width: 100%;	
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 7px;
+	border: 1px solid #1d3557;	
+	font-size: 18px;
+
+}
+
+#boton1{
+	width: 20%;
+  	margin-top: 1px;
+  	border-radius: 5px ;
+  	margin-left: 8%;
+  	height: 5%;
+  	background: #a9d6e5;
+
+}
+	
+#boton2{
+
+  	width: 25%;
+  	margin-top: 1px;
+  	border-radius: 5px ;
+    background: #a9d6e5 ;
+  
+}

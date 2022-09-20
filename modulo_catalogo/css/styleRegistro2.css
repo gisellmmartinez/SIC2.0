@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.modal-header{
+	background: #232752;
+}
+.modal-title{
+	color: #f35b04;
+	font-family: 'Be Vietnam Pro', sans-serif;
+	text-align: center;
+
+}
+
+.modal-body{
+	font-family: 'Be Vietnam Pro', sans-serif;
+	color: #232752;
+/*	background: #232752;*/
+}
+
+span{
+	color: #232752;
+}
+
+.input-group-addon{
+	background: #232752;
+	color: #232752;
+}
+
+
+
+#button{
+	background: #232752;
+	color: white;
+	align-items: center;
+}
+
+
+#button:hover{
+  color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+  transition: all 0.2s ease;
+}

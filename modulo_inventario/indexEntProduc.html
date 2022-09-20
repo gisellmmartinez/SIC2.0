@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styleEntProduc.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Entrada Producto</title>
+</head>
+
+<body>
+  <div class="container">
+   
+    
+    <form class="inventario">
+
+
+        <h1>Entrada Productos</h1>
+        <div class="form-group">
+        <div class="row">
+        
+        <div class="col-md-4">
+        <label for="">Codigo Producto</label>
+        <input class="espacios "type="search" size="20" maxlength="20" required="">
+        <button  type="submit" class="btn btn-primary">Buscar</button>
+        </div>
+
+        <div class=" col-md-4">
+        <label for="">Nombre Producto</label>
+        <input class="espaciosT" type="text" required="">
+        </div>
+
+        <div class="col-md-4">
+        <label for="">Cantidad </label>
+        <input class="espaciosT" type="number" required="">
+        </div>
+        </div>
+        </div>
+
+        <div class="form-group col-lg-11">
+        <div class="row">
+        <label for="">Descripción del producto</label>
+        <textarea class="espaciosT1" id="" ></textarea>
+        </div>
+        </div>
+
+
+        <div class="form-group">
+        <div class="row">
+
+        <div class="col-md-4">
+        <label for="">Estado Del Producto </label>
+        <input class="espaciosT2" type="text" required="">
+        </div>
+
+        <div class="col-md-4">
+        <label for="">Precio Compra</label>
+        <input class="espaciosT2" type="number">
+        </div>
+        
+        <div class="col-md-4">
+        <label for="">Nombre Quien Recibe</label>
+        <input class="espaciosT2" type="text" required="">
+        </div>
+        </div>
+        </div>
+        <div class="form-group">
+        <div class="row">
+
+        <div class="col-md-4">
+        <label for="">Nombre De Proveedor</label>
+        <input class="espaciosT2" type="text" required="">
+        </div>
+        
+        <div class="col-md-4">
+        <label for="">Fecha Entrada Producto</label>
+        <input class="espaciosT2" type="date" required="">
+        </div>
+
+         <div class="col-md-4">
+        <label for="">Hora Entrada Producto</label>
+        <input class="espaciosT2" type="time" required="">
+        </div>
+        </div>
+        </div>
+     
+
+
+        <!-- Boton enviar -->
+     
+       <button type="submit" class="btn btn-primary" onclick="cancelar()">Agregar productos</button> 
+        <script>
+                    function cancelar(){
+                        swal("","Producto agregado con exito", "success")
+                    }
+        </script>
+     
+    </form>
+       <script src="js/jQuery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/sweetalert.min.js"></script>
+   
+  
+ </div>
+
+</body>
+</html>

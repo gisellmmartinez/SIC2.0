@@ -1,0 +1,74 @@
+
+	
+	
+
+h1{
+	text-align: center;
+	
+}
+
+.inventarios{
+	width: 45%;
+	/*height: 620px;*/
+	background: #001845;
+	padding: 30px;
+	margin: auto;
+	border-radius: 4px;	
+	color: #adb5bd;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+}
+
+
+.espaciosT{
+	
+	width: 100%;	
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+    align-items: center;
+	border: 1px solid #1d3557;	
+	font-size: 18px;
+	color: #adb5bd;
+}
+
+.espaciosT12{
+
+    border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid #1d3557;	
+	font-size: 18px;
+	margin-left: 10px;
+}	
+.espaciosT2{
+	width: 100%;	
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 7px;
+	border: 1px solid #1d3557;	
+	font-size: 18px;
+}
+
+#boton{
+	width: 20%;
+  	margin-top: 1px;
+  	border-radius: 5px ;
+  	margin-left: 10px;
+  	height: 5%;
+  	background: #a9d6e5;
+
+}
+	
+#boton{
+
+  	width: 25%;
+  	margin-top: 1px;
+  	border-radius: 5px ;
+    background: #a9d6e5 ;
+    margin-left: 25px;
+  
+}
+#Letras{
+	/*margin-left:45px;*/
+}
